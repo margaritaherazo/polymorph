@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/familyconst" element={<Familyconst />} />
-          <Route path="/facialmanuvers" element={<Fascialmanuvers />} />
+          <Route path="/fascialmanuvers" element={<Fascialmanuvers />} />
           <Route path="/tre" element={<Tre />} />
           <Route path="/vocalbreath" element={<Vocalbreath />} />
         </Routes>
