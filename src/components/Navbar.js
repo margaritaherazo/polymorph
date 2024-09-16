@@ -19,6 +19,10 @@ function Navbar() {
         <li><Link to="/fascialmanuvers">Fascial Manuvers</Link></li>
         <li><Link to="/tre">TRE (Tension, Stress & Trauma Release)</Link></li>
         <li><Link to="/vocalbreath">Vocal & Breath Therapy</Link></li>
+
+   {/* Contact Link */}
+   <li><Link to="/contact">Contact</Link></li>
+
       </ul>
 
       {/* Social Media Icons */}
