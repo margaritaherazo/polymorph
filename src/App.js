@@ -4,7 +4,7 @@ import Familyconst from './pages/Familyconst';
 import Fascialmanuvers from './pages/Fascialmanuvers';
 import Tre from './pages/Tre';
 import Vocalbreath from './pages/Vocalbreath';
-import Contact from './pages/Contact';
+import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 
 function App() {
