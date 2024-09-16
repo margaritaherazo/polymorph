@@ -8,7 +8,6 @@ function Navbar() {
       </div>
       <ul>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
         <li><Link to="/familyconst">Family Constellations</Link></li>
         <li><Link to="/fascialmanuvers">Fascial Manuvers</Link></li>
         <li><Link to="/tre">TRE (Tension, Stress & Trauma Release)</Link></li>
