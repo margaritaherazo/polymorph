@@ -4,6 +4,7 @@ import Familyconst from './pages/Familyconst';
 import Fascialmanuvers from './pages/Fascialmanuvers';
 import Tre from './pages/Tre';
 import Vocalbreath from './pages/Vocalbreath';
+import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/fascialmanuvers" element={<Fascialmanuvers />} />
           <Route path="/tre" element={<Tre />} />
           <Route path="/vocalbreath" element={<Vocalbreath />} />
+          <Route path="/contact" element={<Contact />} /> 
         </Routes>
       </div>
     </Router>
