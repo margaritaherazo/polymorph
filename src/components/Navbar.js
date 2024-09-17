@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <nav>
+    <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
       <div className="logo">
         <Link to="/">Logo</Link>
       </div>
