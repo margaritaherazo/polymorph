@@ -1,21 +1,34 @@
-*{
-  padding: 0;
-  margin: 0;
-}
-
-*{
--webkit-box-sizing:border-box;
--moz-box-sizing:border-box;
--o-box-sizing:border-box;
--ms-box-sizing:border-box;
-box-sizing:border-box;
-}
-
+/* General styles */
 body {
   font-family: 'Poppins', sans-serif;
-	font-size:16px;
-  background-color: white;
-  max-width:1920px;
-  margin:0 auto;
-	overflow-x:hidden;
+  font-size: 16px;
+  color: black;
+  background: #fff;
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+}
+
+a, a:hover, a:active, a:focus {
+  text-decoration: none;
+  color: goldenrod;
+  font-size: 16px;
+}
+
+/* Button reset */
+button {
+  background: transparent;
+  border: none;
+}
+
+/* Navbar custom classes */
+.top-area {
+  position: relative;
+  z-index: 9999;
 }
