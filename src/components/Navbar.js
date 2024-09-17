@@ -5,19 +5,20 @@ function Navbar() {
   return (
     <header className="top-area">
       <div className="header-area">
-        <nav className="navbar navbar-default bootsnav navbar-fixed dark no-background">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container">
-            <div className="navbar-header">
-              <Link className="navbar-brand" to="/">Logo</Link>
-            </div>
-            <div className="navbar-collapse" id="navbar-menu">
-              <ul className="nav navbar-nav navbar-right">
-                <li><Link className="smooth-menu" to="/">Home</Link></li>
-                <li><Link className="smooth-menu" to="/familyconst">Family Constellations</Link></li>
-                <li><Link className="smooth-menu" to="/fascialmanuvers">Fascial Maneuvers</Link></li>
-                <li><Link className="smooth-menu" to="/tre">TRE</Link></li>
-                <li><Link className="smooth-menu" to="/vocalbreath">Vocal Breath</Link></li>
-                <li><Link className="smooth-menu" to="#contact">Contact</Link></li>
+            <Link className="navbar-brand" to="/">Logo</Link>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNav">
+              <ul className="navbar-nav ml-auto">
+                <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
+                <li className="nav-item"><Link className="nav-link" to="/familyconst">Family Constellations</Link></li>
+                <li className="nav-item"><Link className="nav-link" to="/fascialmanuvers">Fascial Maneuvers</Link></li>
+                <li className="nav-item"><Link className="nav-link" to="/tre">TRE</Link></li>
+                <li className="nav-item"><Link className="nav-link" to="/vocalbreath">Vocal Breath</Link></li>
+                <li className="nav-item"><Link className="nav-link" to="#contact">Contact</Link></li>
               </ul>
             </div>
           </div>
@@ -25,6 +26,6 @@ function Navbar() {
       </div>
     </header>
   );
-};
+}
 
 export default Navbar;

@@ -4,15 +4,16 @@
     z-index: 9999;
 }
 
-nav.navbar.bootsnav.no-background {
+nav.navbar {
     background-color: #fff;
     border: none;
     box-shadow: 0 3px 15px rgba(0, 0, 0, .2);
 }
 
+
 .navbar-brand {
     display: inline-block;
-    color: #d92cf9;
+    color: goldenrod;
     font-size: 20px;
     font-weight: 600;
     padding: 33px 0px 57px;
@@ -25,7 +26,7 @@ nav.navbar.bootsnav.no-background {
 }
 
 .navbar-nav {
-    display: inline-block;
+    display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -46,34 +47,19 @@ nav.navbar.bootsnav.no-background {
 
 .navbar-nav > li > a:hover,
 .navbar-nav > li.active > a {
-    color: #d92cf9;
+    color: goldenrod;
 }
 
 .navbar-toggle {
     background-color: transparent;
-    border: 1px solid #d92cf9;
+    border: 1px solid goldenrod;
     padding: 10px;
 }
 
 .navbar-toggle i {
-    color: #d92cf9;
+    color: goldenrod;
 }
 
-/* Smooth scroll class */
 .smooth-menu {
     scroll-behavior: smooth;
-}
-
-/* Responsive Scroll */
-.menu-ui-design {
-    overflow-y: scroll;
-    height: 350px;
-}
-
-.menu-ui-design::-webkit-scrollbar {
-    width: 5px;
-}
-
-.menu-ui-design::-webkit-scrollbar-thumb {
-    background-color: #d92cf9;
 }
