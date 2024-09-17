@@ -19,12 +19,29 @@ nav.navbar.bootsnav.no-background {
     text-transform: uppercase;
 }
 
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar-nav > li {
+    list-style: none;
+}
+
 .navbar-nav > li > a {
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
-    padding: 35px 20px;
+    padding: 15px 20px; 
     transition: color 0.3s linear;
+    
 }
 
 .navbar-nav > li > a:hover,
@@ -52,9 +69,11 @@ nav.navbar.bootsnav.no-background {
     overflow-y: scroll;
     height: 350px;
 }
+
 .menu-ui-design::-webkit-scrollbar {
     width: 5px;
 }
+
 .menu-ui-design::-webkit-scrollbar-thumb {
     background-color: #d92cf9;
 }

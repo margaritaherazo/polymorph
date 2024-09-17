@@ -27,8 +27,4 @@ button {
   border: none;
 }
 
-/* Navbar custom classes */
-.top-area {
-  position: relative;
-  z-index: 9999;
-}
+
