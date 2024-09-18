@@ -28,3 +28,18 @@ button {
 }
 
 
+/* Hero section */
+
+#hero {
+  background-image: url("/public/assets/imgs/coper.jpeg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh; 
+  color: white; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px; 
+}
