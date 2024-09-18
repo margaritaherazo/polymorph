@@ -13,7 +13,7 @@ function Concept() {
       <Link to="/familyconst">Family Constellations</Link> and then blalabalaba
       <Link to="/fascialmanuvers">Fascial Manuvers</Link> and blabalbalaa
       <Link to="/tre">TRE</Link> and also in our vocal etc
-        <Link to="/vocalbreath">Vocal Breath Therapy</Link>
+        <Link to="/vocalbreath">Vocal Breath Therapy</Link> and lke this we heal
       
       </p>
       </div>
