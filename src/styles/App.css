@@ -124,6 +124,7 @@ button {
 #about .about-content {
   padding-left: 100px;
   text-align: left; 
+  
 }
 
 #about h4 {
@@ -152,11 +153,18 @@ button {
 /* contact section */
 
 #contact {
-  padding: 50px 0;
+  background-image: url("/public/assets/imgs/hero1.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh; 
+  padding: 10px; 
+  margin-top: 50px;
 }
 
 #contact h2 {
-  margin-bottom: 40px; 
+  margin-top: 50px;
+  margin-bottom: 80px !important; 
 }
 
 #contact .form-group {
@@ -176,7 +184,7 @@ button {
 
 #contact .social-icons {
   display: flex;
-  gap: 10px; /* Space between icons */
+  gap: 10px; 
   margin-top: 20px;
 }
 

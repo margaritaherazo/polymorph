@@ -22,8 +22,9 @@ function Contact() {
   };
 
   return (
-    <section id="contact" className="container">
+    <section id="contact">
       <h2 className="text-center mb-5">Contact Us</h2>
+      <div className="container">
       <div className="row">
         {/* Left Column - Contact Form */}
         <div className="col-md-6">
@@ -90,12 +91,11 @@ function Contact() {
 
             <h4>Follow Us</h4>
             <div className="social-icons">
-              <a href="#" className="social-icon"><i className="fab fa-facebook"></i></a>
-              <a href="#" className="social-icon"><i className="fab fa-instagram"></i></a>
-              <a href="#" className="social-icon"><i className="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/annuluk_music/" className="social-icon"><i className="fab fa-instagram"></i></a>
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );
