@@ -121,7 +121,30 @@ button {
   margin-bottom: 100px;
 }
 
-#about p {
-  font-size: 16px;
-  line-height: 1.5;
+#about .about-content {
+  padding-left: 100px;
+  text-align: left; 
+}
+
+#about h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: goldenrod; 
+  padding-left: 100px;
+}
+
+#about ul {
+  padding-left: 100px;
+}
+
+#about ul li {
+  line-height: 1.6;
+  margin-bottom: 10px; 
+}
+
+.about-image {
+  max-width: 100%; 
+  height: auto; 
+  margin-bottom: 20px;
+  border-radius: 10px; 
 }
