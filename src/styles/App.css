@@ -109,3 +109,19 @@ button {
   margin-right: 150px;
 }
 
+/* About section */
+
+
+#about {
+  margin-top: 50px;
+}
+
+#about h2 {
+  text-align: center; 
+  margin-bottom: 100px;
+}
+
+#about p {
+  font-size: 16px;
+  line-height: 1.5;
+}
