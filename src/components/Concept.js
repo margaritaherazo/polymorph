@@ -21,13 +21,7 @@ function Concept() {
           <img src="/assets/imgs/tre.jpg" alt="TRE"className="img-fluid img-left" />
         </div> 
         <div className="img-container">
-          <img src="/assets/imgs/fascial.jfif" alt="Fascial Manuvers" className="img-fluid img-right"  />
-        </div>
-          <div className="img-container">
-          <img src="/assets/imgs/family.jfif" alt="Family Constellations" className="img-fluid img-left"/>
-        </div>
-        <div className="img-container">
-          <img src="/assets/imgs/breath.jfif" alt="Vocal Breath Therapy" className="img-fluid img-right" />
+          <img src="/assets/imgs/fascial.jpg" alt="Fascial Manuvers" className="img-fluid img-right"  />
         </div>
       </div>
       </div>
