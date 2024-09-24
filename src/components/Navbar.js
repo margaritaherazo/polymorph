@@ -18,7 +18,7 @@ function Navbar() {
                 <li className="nav-item"><Link className="nav-link" to="/fascialmanuvers">Fascial Maneuvers</Link></li>
                 <li className="nav-item"><Link className="nav-link" to="/tre">TRE</Link></li>
                 <li className="nav-item"><Link className="nav-link" to="/vocalbreath">Vocal&Breath</Link></li>
-                <li className="nav-item"><Link className="nav-link" to="#contact">Contact</Link></li>
+                <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
               </ul>
             </div>
           </div>
