@@ -25,6 +25,7 @@ a, a:hover, a:active, a:focus {
 button {
   background: transparent;
   border: none;
+  background-color:goldenrod;
 }
 
 
@@ -195,4 +196,20 @@ button {
 
 #contact .social-icon:hover {
   color: goldenrod;
+}
+
+#contact button[type="submit"] {
+  background-color: goldenrod; 
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease; 
+}
+
+
+#contact button[type="submit"]:hover {
+  background-color: darkgoldenrod; 
 }
