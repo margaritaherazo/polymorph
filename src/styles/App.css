@@ -148,3 +148,43 @@ button {
   margin-bottom: 20px;
   border-radius: 10px; 
 }
+
+/* contact section */
+
+#contact {
+  padding: 50px 0;
+}
+
+#contact h2 {
+  margin-bottom: 40px; 
+}
+
+#contact .form-group {
+  margin-bottom: 15px; 
+}
+
+#contact .contact-info {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+#contact .contact-info h4 {
+  margin-top: 20px;
+  color: goldenrod; 
+}
+
+#contact .social-icons {
+  display: flex;
+  gap: 10px; /* Space between icons */
+  margin-top: 20px;
+}
+
+#contact .social-icon {
+  font-size: 20px;
+  color: #333;
+}
+
+#contact .social-icon:hover {
+  color: goldenrod;
+}
