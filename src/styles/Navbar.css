@@ -20,7 +20,7 @@ nav.navbar {
     color: goldenrod;
     font-size: 20px;
     font-weight: 600;
-    padding: 33px 0px 57px;
+    padding: 20px 0px 30px;
     text-transform: uppercase;
 }
 
@@ -37,15 +37,15 @@ nav.navbar {
 }
 
 .navbar-nav > li {
-    margin-right: 20px;
+    margin-right: 10px;
     list-style: none;
 }
 
 .navbar-nav > li > a {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     text-transform: uppercase;
-    padding: 15px 20px; 
+    padding: 5px 20px; 
     transition: color 0.3s linear;
     
 }
