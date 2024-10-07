@@ -6,8 +6,9 @@ function About() {
   const toggleShowMore = () => setShowMore(!showMore);
 
   return (
-    <section id="about" className="container">
-      <h2 className="text-center">Über mich</h2>
+    <section id="about">
+      <div className="container">
+      <h2 className="text-center">Über Mich</h2>
       <div className="row align-items-start">
         <div className="col-md-4 text-center">
           <img src="/assets/imgs/tre.jpg" alt="About Me" className="img-fluid about-image" />
@@ -101,6 +102,7 @@ function About() {
           </div>
         </div>
       </div>
+     </div>
     </section>
   );
 }

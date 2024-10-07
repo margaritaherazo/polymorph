@@ -22,10 +22,18 @@ a, a:hover, a:active, a:focus {
 
 /* Button reset */
 button {
-  background: transparent;
-  border: none;
-  background-color:goldenrod;
+  background: transparent !important;
+  border: none !important;
+  background-color:goldenrod !important;
+  color: white !important; 
+  border: none !important;
+  padding: 10px 20px !important; 
+  font-size: 16px !important;
+  cursor: pointer !important;
+  border-radius: 5px !important;
+  transition: background-color 0.3s ease !important; 
 }
+
 
 
 /* Hero section */
@@ -61,7 +69,12 @@ button {
 
 
 #about {
-  margin-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background: linear-gradient(to bottom, transparent, rgba(184, 134, 11, 0.6));
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
 }
 
 #about h2 {
@@ -101,7 +114,7 @@ button {
 /* concept section */
 
 #concept {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 #concept h2 {
@@ -132,6 +145,10 @@ button {
   height: auto; 
   margin-bottom: 20px;
   border-radius: 10px; 
+}
+
+#concept button {
+  max-width: fit-content;
 }
 
 
@@ -183,18 +200,6 @@ button {
   color: goldenrod;
 }
 
-#contact button[type="submit"] {
-  background-color: goldenrod; 
-  color: white; 
-  border: none; 
-  padding: 10px 20px; 
-  font-size: 16px; 
-  cursor: pointer; 
-  border-radius: 5px; 
-  transition: background-color 0.3s ease; 
-}
 
+/* breath page */
 
-#contact button[type="submit"]:hover {
-  background-color: darkgoldenrod; 
-}
