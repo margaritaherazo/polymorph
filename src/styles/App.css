@@ -56,58 +56,6 @@ button {
   margin: 0; 
 }
 
-/* concept section */
-
-#concept {
-  margin-top: 50px;
-}
-
-#concept h2 {
-  text-align: center; 
-  margin-bottom: 100px;
-}
-
-#concept p {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-#concept img {
-  max-width: 300px;
-  max-height: 200px;
-  height: auto;
-  display: block;
-}
-
-#concept .row {
-  display: flex;
-  align-items: flex-start;
-}
-
-#concept .col-md-6 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-#concept .img-container {
-  display: flex;
-  justify-content: flex-start;
-  position: relative;
-}
-
-.col-md-6 img {
-  display: block;
-  margin-left: auto; 
-}
-
-.img-left {
-  margin-left: 50px;
-}
-
-.img-right {
-  margin-right: 150px;
-}
 
 /* About section */
 
@@ -149,6 +97,44 @@ button {
   margin-bottom: 20px;
   border-radius: 10px; 
 }
+
+/* concept section */
+
+#concept {
+  margin-top: 150px;
+}
+
+#concept h2 {
+  text-align: center; 
+  margin-bottom: 100px;
+}
+
+#concept p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding-right: 100px;
+  text-align: left;
+}
+
+#concept .row {
+  display: flex;
+  align-items: flex-start;
+}
+
+#concept .col-md-8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.concept-img {
+  max-width: 100%; 
+  height: auto; 
+  margin-bottom: 20px;
+  border-radius: 10px; 
+}
+
+
 
 /* contact section */
 
