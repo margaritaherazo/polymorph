@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Concept() {
   return (
     <section id="concept" className="container">
-      <h2 className="text-center">Our Concept</h2>
+      <h2 className="text-center">Mein Konzept</h2>
       <div className="row">
       <div className="col-md-6">
   <p>
@@ -30,10 +30,6 @@ function Concept() {
 
   <p>
     Die <Link to="/tre">TRE®-Methode</Link> ist ein weiterer zentraler Bestandteil meiner Arbeit. Durch das Auslösen eines neurogenen Tremors – also das natürliche Zittern des Körpers – werden muskuläre und energetische Spannungen auf tiefster Ebene abgebaut. Dieser Mechanismus, der in enger Verbindung mit der Polyvagal-Theorie steht, ermöglicht es dem Körper, sich selbst zu regulieren und in einen Zustand tiefer Entspannung zu gelangen. Das Zittern löst nicht nur physische Blockaden, sondern harmonisiert auch die energetischen Schwingungen im Körper.
-  </p>
-
-  <p>
-    <Link to="/familyconst">Family Constellations</Link> and then blalabalaba
   </p>
 </div>
         <div className="col-md-6">

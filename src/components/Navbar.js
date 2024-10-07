@@ -14,10 +14,10 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item"><Link className="nav-link" to="/vocalbreath">Atem & Stimmcoaching</Link></li>
-                <li className="nav-item"><Link className="nav-link" to="/fascialmanuvers">faszialen Techniken</Link></li>
-                <li className="nav-item"><Link className="nav-link" to="/tre">TRE®-Methode </Link></li>
+                <li className="nav-item"><Link className="nav-link" to="/fascialmanuvers">Faszialle Manöver</Link></li>
+                <li className="nav-item"><Link className="nav-link" to="/tre">TRE® </Link></li>
                 <li className="nav-item"><Link className="nav-link" to="/familyconst">Gestalttherapeutische Aufstellungsarbeit</Link></li>
-                <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
+                <li className="nav-item"><Link className="nav-link" to="/contact">Kontakt</Link></li>
               </ul>
             </div>
           </div>

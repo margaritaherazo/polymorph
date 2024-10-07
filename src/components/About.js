@@ -14,6 +14,8 @@ function About() {
 
 <p>Als ich schließlich in der Lage war, mit meinem inneren Alarm zu sitzen, ihn zu spüren, nicht wegzulaufen oder wegzuwollen, sondern hineinzuatmen und meinen Körper leicht zu bewegen, erlebte ich neue Dimensionen. Ich erlaubte mir, "nicht okay" zu sein, und dadurch öffneten sich neue Türen. Es gab vieles, was mein Körper nicht länger zurückhalten konnte. Mein Organismus hatte so vieles für mich wegsortiert, damit ich es nicht fühlen musste – bis zu dem Punkt, an dem der Deckel hochging. Es musste so sein.</p>
 
+
+
 <p>Orthomolekulare Medizin, Körperarbeit und heilende Frequenzen waren mein Anker. Ich habe diesen Weg ohne Klinik und ohne Psychopharmaka gewählt. Es hat gedauert, und der Weg war holprig, vor allem wegen meiner Zweifel. Es gab so viel Tiefe, Tränen, Trauer, Schmerz und Angst. Doch ich hatte Glück. Es waren einige Menschen an meiner Seite, die an mich glaubten, die die nötige Ruhe hatten und mir auf verschiedene Weisen immer wieder sagten: "Vertraue deinem Prozess."</p>
 
 <p>Aus heutiger Sicht kann ich sagen: Mein Körper meldet sich manchmal noch mit Alarm, aber ich gehe anders damit um. Ich halte inne und bleibe dabei, kehre zu mir zurück, fühle es und lasse es sein, so gut ich kann. Ich habe erkannt, dass mein Körper mein größter Verbündeter ist – immer in meinem Dienst, immer. Mir ist klar geworden, dass körperliche und/oder mentale Schmerzen (die sich eh von einander nicht trennen lassen), Wachstumsschmerzen sind, und deshalb kann uns niemand diese einfach abnehmen, denn dann würden wir unsere Lektion nicht lernen.</p>
