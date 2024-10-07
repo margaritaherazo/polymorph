@@ -3,7 +3,7 @@ import React from 'react';
 
 function Vocalbreath() {
   return (
-    <div>
+    <div className="vocalbreath-container">
       <h1>Atem</h1>
       <p>Atmen ist eine der grundlegendsten und gleichzeitig faszinierendsten Funktionen des menschlichen Körpers. Jeder Atemzug versorgt uns mit dem lebenswichtigen Sauerstoff, den unsere Zellen benötigen, um Energie zu produzieren und das Leben zu erhalten. Ohne Atem gibt es kein Leben – es ist die unbewusste Tätigkeit, die uns am Leben hält, ohne dass wir sie steuern müssen. Doch gerade diese scheinbar einfache Funktion birgt eine tiefe, oft übersehene Kraft.</p>
 

@@ -203,3 +203,29 @@ button {
 
 /* breath page */
 
+.vocalbreath-container {
+  background: linear-gradient(to bottom, rgba(184, 134, 11, 0.2), rgba(184, 134, 11, 0.5));
+  padding: 50px;
+  color: #333;
+}
+
+.vocalbreath-container h1 {
+  font-size: 2rem;
+  color: #b8860b;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center; 
+
+}
+
+.vocalbreath-container h3 {
+  font-size: 1.5rem;
+  color: #8b6d2a;
+  margin-top: 20px;
+}
+
+.vocalbreath-container p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  text-align: justify;
+}

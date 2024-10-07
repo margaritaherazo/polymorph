@@ -23,7 +23,7 @@ function Contact() {
 
   return (
     <section id="contact">
-      <h2 className="text-center mb-5">Contact Us</h2>
+      <h2 className="text-center mb-5">Kontakt</h2>
       <div className="container">
       <div className="row">
         {/* Left Column - Contact Form */}
