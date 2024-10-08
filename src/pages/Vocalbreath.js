@@ -1,10 +1,18 @@
-// src/pages/Vocalbreath.js
 import React from 'react';
 
 function Vocalbreath() {
   return (
     <div className="vocalbreath-container">
-      <h1>Atem</h1>
+      {/* Atem Section */}
+      <section className="vocalbreath-atem">
+        <div className="container">
+        <h1 className="text-center">Atem</h1>
+          <div className="row align-items-start">
+            <div className="col-md-4 text-center">
+              <img src="/assets/imgs/atem.jpg" alt="Atem" className="img-fluid vocalbreath-image" />
+            </div>
+            <div className="col-md-8">
+    
       <p>Atmen ist eine der grundlegendsten und gleichzeitig faszinierendsten Funktionen des menschlichen Körpers. Jeder Atemzug versorgt uns mit dem lebenswichtigen Sauerstoff, den unsere Zellen benötigen, um Energie zu produzieren und das Leben zu erhalten. Ohne Atem gibt es kein Leben – es ist die unbewusste Tätigkeit, die uns am Leben hält, ohne dass wir sie steuern müssen. Doch gerade diese scheinbar einfache Funktion birgt eine tiefe, oft übersehene Kraft.</p>
 
       <p>Eines der stärksten Instinkte des menschlichen Körpers ist das Verlangen nach Atem. Wenn der Sauerstoffgehalt sinkt oder der Kohlendioxidgehalt steigt, spüren wir ein starkes Bedürfnis zu atmen. Dieser Überlebensreflex ist so mächtig, dass er unwillkürlich wird. Wenn wir den Atem anhalten, spüren wir nach kurzer Zeit ein fast überwältigendes Verlangen, Luft zu holen – eine unausweichliche Kraft, die uns daran erinnert, dass der Atem das Fundament unseres Lebens ist.</p>
@@ -22,9 +30,18 @@ function Vocalbreath() {
       <p>Indem wir den Atem bewusst lenken, können wir mehr als nur Sauerstoff in unseren Körper bringen. Wir haben die Möglichkeit, eine tiefe Verbindung zu uns selbst herzustellen, Stress und Anspannung zu lösen und inneren Frieden zu finden. Atemtechniken wie das Pranayama aus dem Yoga, die Wim-Hof-Methode oder die Holotropische Atmung zielen darauf ab, das volle Potenzial des Atems auszuschöpfen und ihn als Werkzeug für Heilung, Klarheit und Selbsttransformation zu nutzen.</p>
 
      <p>Atem ist mehr als nur eine physische Notwendigkeit – er ist eine Brücke zwischen Körper, Geist und Seele. Wenn wir lernen, ihn bewusst einzusetzen, öffnen sich Türen zu mehr Wohlbefinden, Achtsamkeit und Selbstverwirklichung.</p>
-   
+     </div>
+    </div>
+   </div>
+ </section>
 
-      <h1>Stimmcoaching </h1>
+   {/* Stimmcoaching Section */}
+   <section className="vocalbreath-stimmcoaching">
+        <div className="container">
+          <h1 className="text-center">Stimmcoaching</h1>
+          <div className="row">
+            <div className="col-md-8">
+
       <p>Die Stimme spielt eine entscheidende Rolle in unserem Leben und ist eng mit der Polyvagal-Theorie verbunden, die die Wechselwirkungen zwischen unserem autonomen Nervensystem und unserem Verhalten untersucht. Gemäß der Polyvagal-Theorie wird die Stimme durch die Aktivität des vagalen Nervs beeinflusst, der an der Regulation von sozialen Interaktionen beteiligt ist.</p>
 
      <p>Unsere Stimme kann verschiedene Zustände unseres autonomen Nervensystems widerspiegeln. Wenn wir uns sicher und verbunden fühlen, ist unsere Stimme in der Lage, ruhig, warm und melodiös zu klingen. In diesem Zustand ist der vagale Ton hoch, was bedeutet, dass unser parasympathisches Nervensystem aktiviert ist und uns ein Gefühl von Sicherheit vermittelt.</p>
@@ -33,8 +50,14 @@ function Vocalbreath() {
 
       <p>Durch die bewusste Wahrnehmung und Regulation unserer Stimme können wir Einfluss auf unseren inneren Zustand nehmen und unsere sozialen Interaktionen verbessern. Indem wir unsere Stimme beruhigen und sie in einen warmen und freundlichen Tonfall bringen, können wir das Gefühl von Sicherheit und Verbundenheit sowohl bei uns selbst als auch bei anderen fördern.</p>
    
+      </div>
+            <div className="col-md-4 text-center">
+              <img src="/assets/imgs/stimmcoaching.jpg" alt="Stimmcoaching" className="img-fluid vocalbreath-image" />
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-    
   );
 }
 
