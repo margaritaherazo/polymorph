@@ -1,4 +1,3 @@
-
 .top-area {
     position: relative;
     z-index: 9999;
@@ -14,7 +13,6 @@ nav.navbar {
     z-index: 1000;
 }
 
-
 .navbar-brand {
     display: inline-block;
     color: goldenrod;
@@ -25,7 +23,6 @@ nav.navbar {
 }
 
 .navbar-collapse {
-    display: flex;
     justify-content: flex-end;
 }
 
@@ -47,7 +44,6 @@ nav.navbar {
     text-transform: uppercase;
     padding: 5px 20px; 
     transition: color 0.3s linear;
-    
 }
 
 .navbar-nav > li > a:hover,
@@ -55,19 +51,26 @@ nav.navbar {
     color: goldenrod;
 }
 
-.navbar-toggle {
+.navbar-toggler {
     background-color: transparent;
     border: 1px solid goldenrod;
     padding: 10px;
 }
 
-.navbar-toggle i {
+.navbar-toggler i {
     color: goldenrod;
 }
 
 .smooth-menu {
     scroll-behavior: smooth;
 }
+
+.navbar-images .navbar-img {
+    width: 30px; 
+    height: 30px; 
+    margin-left: 4px;
+}
+
 
 .navbar-images .navbar-img {
     width: 30px; 
