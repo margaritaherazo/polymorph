@@ -80,14 +80,14 @@ function Contact() {
         {/* Right Column - Extra Contact Info */}
         <div className="col-md-6">
           <div className="contact-info">
-            <h4>Our Office</h4>
+            <h4>Adresse</h4>
             <p>123 Therapy Street<br />City, Country 12345</p>
 
             <h4>Phone</h4>
-            <p>+123 456 7890</p>
+            <p>+49 176 444 768 26</p>
 
             <h4>Email</h4>
-            <p>contact@therapywebsite.com</p>
+            <p>miho.home@outlook.com</p>
 
             <h4>Follow Us</h4>
             <div className="social-icons">
