@@ -1,10 +1,19 @@
-// src/pages/Tre.js
+
 import React from 'react';
 
 function Tre() {
   return (
-    <div>
-      <h1>TRE®</h1>
+    <section className="tre-section">
+      <div className="container">
+        <h1 className="text-center">TRE®</h1>
+        <div className="row align-items-start">
+          <div className="col-md-4 text-center">
+          <video width="100%" controls className="tre-video">
+                <source src="/assets/videos/trevideo.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+          </div>
+          <div className="col-md-8">
       <p>TRE® (Tension & Trauma Releasing Exercises) ist eine Körpertherapie, die darauf abzielt, durch gezielte Übungen Muskelverspannungen zu lösen und das Nervensystem zu beruhigen. Diese Methode wurde von Dr. David Berceli entwickelt und basiert auf der Annahme, dass traumatische Erlebnisse und chronischer Stress zu physischen Verspannungen führen, die im Körper gespeichert werden.</p>
 
   <h3>Wirkung von TRE® bei Trauma</h3>
@@ -25,7 +34,10 @@ function Tre() {
   <p>TRE® kann sowohl allein als auch unter Anleitung eines ausgebildeten TRE®-Providers durchgeführt werden. In der Gruppe wie einzeln. Es wird empfohlen, mit einem Provider zu beginnen, insbesondere wenn jemand eine traumatische Vorgeschichte hat, um sicherzustellen, dass die Übungen korrekt ausgeführt werden und eine sichere Umgebung gewährleistet ist.</p>
 
   <p>Zusammenfassend kann TRE® eine wirksame Methode sein, um die physischen und emotionalen Folgen von Trauma zu lindern. Es wirkt durch die Entspannung der Muskulatur, die Beruhigung des Nervensystems und die Unterstützung der natürlichen Heilungsprozesse des Körpers.</p>
-    </div>
+  </div>
+        </div>
+      </div>
+    </section>
   );
 }
 
