@@ -11,7 +11,7 @@ function About() {
       <h2 className="text-center">Über Mich</h2>
       <div className="row align-items-start">
         <div className="col-md-4 text-center">
-          <img src="/assets/imgs/tre.jpg" alt="About Me" className="img-fluid about-image" />
+          <img src="/assets/imgs/misha1.jpg" alt="About Me" className="img-fluid about-image" />
         </div>
         <div className="col-md-8">
           <div className="about-content">
