@@ -68,3 +68,9 @@ nav.navbar {
 .smooth-menu {
     scroll-behavior: smooth;
 }
+
+.navbar-images .navbar-img {
+    width: 30px; 
+    height: 30px; 
+    margin-left: 4px;
+  }
