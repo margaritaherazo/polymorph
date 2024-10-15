@@ -90,7 +90,7 @@ function Contact() {
               <h4>Email</h4>
               <p>miho.home@outlook.com</p>
 
-              <h4>Follow Us</h4>
+              <h4>Follow</h4>
               <div className="social-icons">
                 <a href="https://www.instagram.com/annuluk_music/" className="social-icon"><i className="fab fa-instagram"></i></a>
               </div>

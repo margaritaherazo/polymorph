@@ -3,7 +3,9 @@ import React from 'react';
 
 function Fascialmanuvers() {
   return (
-    <section className="fascialmanuvers-container">
+    <div className="fascialmanuvers-container">
+    <section className="fascialmanuvers">
+    <div className="container">
       <h1 className="text-center">Fasziale Manöver</h1>
       <div className="row">
         <div className="col-md-8">
@@ -15,10 +17,12 @@ function Fascialmanuvers() {
         </div>
 
         <div className="col-md-4 text-center">
-          <img src="/assets/imgs/fascialmanuvers.jpg" alt="Fasziale Manöver" className="img-fluid fascial-image" />
-        </div>
+          <img src="/assets/imgs/fascial.jpg" alt="Fasziale Manöver" className="img-fluid fascial-image" />
+         </div>
+       </div>
       </div>
     </section>
+    </div> 
   );
 }
 
