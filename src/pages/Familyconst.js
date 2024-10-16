@@ -1,4 +1,3 @@
-// src/pages/Familyconst.js
 import React from 'react';
 
 function Familyconst() {

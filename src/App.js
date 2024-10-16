@@ -26,11 +26,11 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/familyconst" element={<Familyconst />} />
+          <Route path="/aufstellungsarbeit" element={<Familyconst />} />
           <Route path="/fascialmanuvers" element={<Fascialmanuvers />} />
           <Route path="/tre" element={<Tre />} />
-          <Route path="/vocalbreath" element={<Vocalbreath />} />
-          <Route path="/contact" element={<Contact />} /> 
+          <Route path="/atem-stimm" element={<Vocalbreath />} />
+          <Route path="/kontak" element={<Contact />} /> 
         </Routes>
       </div>
     </Router>

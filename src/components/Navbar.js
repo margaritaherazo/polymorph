@@ -35,7 +35,7 @@ function Navbar() {
             <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id="navbarNav">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <Link className="nav-link" to="/vocalbreath" onClick={handleNavLinkClick}>
+                  <Link className="nav-link" to="/atem-stimm" onClick={handleNavLinkClick}>
                     Atem & Stimmcoaching
                   </Link>
                 </li>
@@ -50,12 +50,12 @@ function Navbar() {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/familyconst" onClick={handleNavLinkClick}>
+                  <Link className="nav-link" to="/aufstellungsarbeit" onClick={handleNavLinkClick}>
                     Gestalttherapeutische Aufstellungsarbeit
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/contact" onClick={handleNavLinkClick}>
+                  <Link className="nav-link" to="/kontak" onClick={handleNavLinkClick}>
                     Kontakt
                   </Link>
                 </li>
