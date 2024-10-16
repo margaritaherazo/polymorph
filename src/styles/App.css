@@ -469,6 +469,30 @@ button {
   border-radius: 10px;
 }
 
+@media (max-width: 768px) {
+
+
+  .tre-section h1 {
+    margin-bottom: 50px;
+    font-size: 1.8rem;
+  }
+
+  .tre-section h3 {
+    padding-left: 0; 
+    text-align: center;
+  }
+
+  .tre-section h4 {
+    padding-left: 0; 
+    text-align: center;
+  }
+
+  .tre-section p {
+    padding: 0; 
+    text-align: center;
+  }
+}
+
 /* familyconst page */
 
 .familyconst {
