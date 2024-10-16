@@ -17,7 +17,7 @@ function About() {
           <div className="about-content">
             <p>
               Ich möchte gerne eine neue Geschichte erzählen, anstatt an der alten festzuhalten.
-              Doch was hat mich dazu gebracht? Es war mein Körper, der "Stopp" sagte. Inmitten von
+              Doch was hat mich dazu gebracht? Es war mein Körper, der "Stop" sagte. Inmitten von
               Angststörungen und Panikattacken bin ich der Intelligenz meines Körpers begegnet. Ich
               verstand nicht, was geschah, war verwundert und versuchte, mich aus der Situation
               herauszudenken, auf der Suche nach Wahrheiten und Dingen, die mir entgingen. Je mehr

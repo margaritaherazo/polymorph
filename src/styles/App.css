@@ -64,6 +64,25 @@ button {
   margin: 0; 
 }
 
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 2rem; 
+  }
+
+  #hero p {
+    font-size: 1rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  #hero h1 {
+    font-size: 1.5rem;
+  }
+
+  #hero p {
+    font-size: 0.9rem;
+  }
+}
 
 /* About section */
 
