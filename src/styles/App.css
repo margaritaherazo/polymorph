@@ -406,6 +406,28 @@ button {
   border-radius: 10px; 
 }
 
+@media (max-width: 768px) {
+  .fascialmanuvers .row {
+    flex-direction: column-reverse; 
+    align-items: center;
+  }
+
+  .fascialmanuvers p {
+    padding: 0; 
+    text-align: center;
+  }
+
+  .fascialmanuvers h1 {
+    margin-bottom: 50px;
+    font-size: 1.8rem;
+  }
+
+  .fascial-img {
+    margin-bottom: 35px; 
+  }
+
+}
+
 /* tre page */
 
 .tre-section {
