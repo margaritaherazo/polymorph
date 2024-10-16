@@ -340,6 +340,13 @@ button {
 
 @media (max-width: 768px) {
 
+  .vocalbreath-atem h1,
+  .vocalbreath-stimmcoaching h1 {
+    text-align: center; 
+    margin-bottom: 50px;
+    font-size: 1.8rem;
+  }
+
   .vocalbreath-atem p {
     padding-left: 0;
     padding-top: 15px;
@@ -348,34 +355,24 @@ button {
 
   .vocalbreath-atem h3 {
     padding-left: 0; 
+    text-align: center;
   }
-}
 
-@media (max-width: 768px) {
+
   .vocalbreath-stimmcoaching .row {
     flex-direction: column-reverse; 
     align-items: center;
   }
 
-  #concept p {
+  .vocalbreath-stimmcoaching p {
     padding: 0; 
     text-align: center;
   }
 
-  #concept h2 {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-
-  .concept-img {
+  .vocalbreath-stimmcoaching-img {
     margin-bottom: 35px; 
   }
 
-  #concept button {
-    margin: 20px auto 0 auto; 
-    display: block;
-
-  }
 }
 
 /* fascial page */
