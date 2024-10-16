@@ -184,7 +184,32 @@ button {
   max-width: fit-content;
 }
 
+@media (max-width: 768px) {
+  #concept .row {
+    flex-direction: column-reverse; 
+    align-items: center;
+  }
 
+  #concept p {
+    padding: 0 20px; 
+    text-align: center;
+  }
+
+  #concept h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .concept-img {
+    margin-bottom: 20px; 
+  }
+
+  #concept button {
+    margin: 20px auto 0 auto; 
+    display: block;
+    
+  }
+}
 
 /* contact section */
 
