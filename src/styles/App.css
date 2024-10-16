@@ -521,3 +521,26 @@ button {
   margin-bottom: 20px;
   border-radius: 10px;
 }
+
+@media (max-width: 768px) {
+  .familyconst .row {
+    flex-direction: column-reverse; 
+    align-items: center;
+  }
+
+  .familyconst p {
+    padding: 0; 
+    text-align: center;
+  }
+
+  .familyconst h1 {
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .familyconst-image {
+    margin-bottom: 35px; 
+  }
+
+}
