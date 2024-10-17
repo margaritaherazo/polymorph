@@ -262,7 +262,7 @@ button {
 
 @media (max-width: 768px) {
   #contact {
-    height: 200vh; 
+    height: 225vh; 
   }
 
   #contact h2 {
@@ -591,4 +591,28 @@ footer .footer-brand {
   margin-top: 10px;
   font-size: 15px;
   color: black;
+}
+
+@media (max-width: 576px) {
+  footer {
+    font-size: 12px; 
+    margin-top: 50px; 
+  }
+
+  footer .footer-brand {
+    font-size: 16px; 
+  }
+
+  .footer-icons img {
+    width: 20px; 
+    height: 20px;  
+  }
+
+  .footer-text {
+    font-size: 12px; 
+  }
+
+  .footer-text a {
+    font-size: 12px; 
+  }
 }
