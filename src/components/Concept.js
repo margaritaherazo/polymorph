@@ -45,7 +45,7 @@ function Concept() {
         </div>
 
         <div className="col-md-4">
-            <img src="/assets/imgs/tre.jpg" alt="TRE" className="img-fluid concept-img" />
+            <img src="/assets/imgs/concept.jpg" alt="TRE" className="img-fluid concept-img" />
         </div>
       </div>
     </section>
