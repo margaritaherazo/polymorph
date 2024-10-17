@@ -559,6 +559,11 @@ footer {
   margin-top: 80px; 
 }
 
+footer .footer-brand {
+  font-weight: bold; 
+  font-size: 18px;
+}
+
 .footer-content {
   display: flex;
   flex-direction: column;
@@ -568,7 +573,7 @@ footer {
 .footer-brand {
   display: flex;
   align-items: center; 
-  gap: 2px; 
+  gap: 1px; 
 }
 
 .footer-icons {
@@ -577,8 +582,9 @@ footer {
 }
 
 .footer-icons img {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
+  
 }
 
 .footer-text {
