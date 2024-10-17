@@ -56,6 +56,22 @@ function Vocalbreath() {
             </div>
           </div>
         </div>
+        <footer>
+  <div className="footer-content">
+    <div className="footer-brand">
+      MI°HO
+      <div className="footer-icons">
+        <img src="/assets/imgs/Heart2.png" alt="Icon 1" />
+        <img src="/assets/imgs/Lung2.png" alt="Icon 2" />
+        <img src="/assets/imgs/Brain2.png" alt="Icon 3" />
+      </div>
+    </div>
+    <div className="footer-text">
+      Copyright © MI-HO 2024 | Made by <a href="https://www.margaritaherazoportfolio.com/" target="_blank" rel="noopener noreferrer">Margarita Herazo</a>
+    </div>
+  </div>
+</footer>
+
       </section>
     </div>
   );
