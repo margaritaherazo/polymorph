@@ -220,7 +220,7 @@ button {
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
-  height: 120vh; 
+  height: 135vh; 
   padding: 10px; 
   margin-top: 50px;
 }
@@ -548,27 +548,41 @@ button {
 }
 
 /* Footer styles */
+
 footer {
   background: transparent;
   color: black;
   text-align: center;
   padding: 20px 0;
-  font-size: 14px;
-  margin-top: -10px; 
+  font-size: 15px;
+  text-decoration: solid;
+  margin-top: 80px; 
 }
 
-footer .footer-icons {
-  margin-top: 10px;
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
 }
 
-footer .footer-icons img {
+.footer-brand {
+  display: flex;
+  align-items: center; 
+  gap: 2px; 
+}
+
+.footer-icons {
+  display: flex;
+  gap: 2px; 
+}
+
+.footer-icons img {
   width: 20px;
   height: 20px;
-  margin: 0 2px;
 }
 
-footer .footer-text {
+.footer-text {
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 15px;
   color: black;
 }
