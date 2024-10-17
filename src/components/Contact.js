@@ -83,7 +83,7 @@ function Contact() {
             <div className="contact-info">
               <h4>Adresse</h4>
               <p>Steinweg 6<br />07646 Stadtroda</p>
-              <h6>verfügbar</h6>
+              <h6>Verfügbar in der</h6>
               <p>Privatpraxis für Ganzheitliche Medizin Dr. med. Sabine Lodes<br />Zöllnitzer Str. 22<br />07751 Zöllnitz</p>
               <h4>Phone</h4>
               <p>+49 176 444 768 26</p>
