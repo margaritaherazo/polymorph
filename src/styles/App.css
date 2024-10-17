@@ -546,3 +546,29 @@ button {
   }
 
 }
+
+/* Footer styles */
+footer {
+  background: transparent;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  margin-top: -10px; 
+}
+
+footer .footer-icons {
+  margin-top: 10px;
+}
+
+footer .footer-icons img {
+  width: 20px;
+  height: 20px;
+  margin: 0 2px;
+}
+
+footer .footer-text {
+  margin-top: 10px;
+  font-size: 12px;
+  color: black;
+}
