@@ -61,9 +61,9 @@ function Vocalbreath() {
     <div className="footer-brand">
       MI°HO
       <div className="footer-icons">
-        <img src="/assets/imgs/Heart2.png" alt="Icon 1" />
-        <img src="/assets/imgs/Lung2.png" alt="Icon 2" />
-        <img src="/assets/imgs/Brain2.png" alt="Icon 3" />
+      <img src="/assets/imgs/Heart1.png" alt="Icon 1" />
+        <img src="/assets/imgs/Lungs1.png" alt="Icon 2" />
+        <img src="/assets/imgs/Brain1.png" alt="Icon 3" />
       </div>
     </div>
     <div className="footer-text">
