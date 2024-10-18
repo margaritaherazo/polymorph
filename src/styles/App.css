@@ -1,4 +1,12 @@
 /* General styles */
+
+@font-face {
+  font-family: 'Buick';
+  src: url('/public/assets/fonts/buick.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -560,6 +568,7 @@ footer {
 }
 
 footer .footer-brand {
+  font-family: 'Buick', sans-serif;
   font-weight: bold; 
   font-size: 18px;
 }
