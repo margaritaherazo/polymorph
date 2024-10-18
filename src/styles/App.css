@@ -107,6 +107,7 @@ button {
 }
 
 #about h2 {
+  font-family: 'Buick', sans-serif;
   text-align: center; 
   margin-bottom: 100px;
 }
