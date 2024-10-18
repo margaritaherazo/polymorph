@@ -17,9 +17,9 @@ function Navbar() {
             <Link className="navbar-brand d-flex align-items-center" to="/">
               MI°HO
               <div className="navbar-images d-flex ml-2">
-                <img src="/assets/imgs/Heart2.png" alt="Icon 1" className="navbar-img" />
-                <img src="/assets/imgs/Lung2.png" alt="Icon 2" className="navbar-img" />
-                <img src="/assets/imgs/Brain2.png" alt="Icon 3" className="navbar-img" />
+                <img src="/assets/imgs/Heart1.png" alt="Icon 1" className="navbar-img" />
+                <img src="/assets/imgs/Lungs1.png" alt="Icon 2" className="navbar-img" />
+                <img src="/assets/imgs/Brain1.png" alt="Icon 3" className="navbar-img" />
               </div>
             </Link>
             <button
