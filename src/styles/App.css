@@ -107,7 +107,6 @@ button {
 }
 
 #about h2 {
-  font-family: 'Buick', sans-serif;
   text-align: center; 
   margin-bottom: 100px;
 }
@@ -569,9 +568,8 @@ footer {
 }
 
 footer .footer-brand {
-  font-family: 'Buick', sans-serif;
   font-weight: bold; 
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .footer-content {
