@@ -94,6 +94,7 @@ function Contact() {
               <h4>Follow</h4>
               <div className="social-icons">
                 <a href="https://www.instagram.com/annuluk_music/" className="social-icon"><i className="fab fa-instagram"></i></a>
+                <a href="https://annuluk.bandcamp.com/music/" className="social-icon"><i className="fab fa-bandcamp"></i></a>
               </div>
             </div>
           </div>
