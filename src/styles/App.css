@@ -75,7 +75,11 @@ button {
 }
 
 @media (max-width: 768px) {
+  #hero{
+    background-size: 250%;
+  }
   #hero h1 {
+    padding-top: 50px;
     font-size: 2rem; 
   }
 
@@ -88,7 +92,6 @@ button {
  
   #hero h1 {
     font-size: 1.5rem;
-    padding: 100px 10px 10px 0;
   }
 
   #hero p {
