@@ -9,7 +9,7 @@ function Vocalbreath() {
         <h1 className="text-center">Atem</h1>
           <div className="row align-items-start">
             <div className="col-md-4 text-center">
-              <img src="/assets/imgs/atem.jpg" alt="Atem" className="img-fluid vocalbreath-image" />
+              <img src="/assets/imgs/breath.jpg" alt="Atem" className="img-fluid vocalbreath-image" />
             </div>
             <div className="col-md-8">
     

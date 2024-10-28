@@ -79,7 +79,7 @@ button {
     background-size: 250%;
   }
   #hero h1 {
-    padding-top: 50px;
+    
     font-size: 2rem; 
   }
 
@@ -311,11 +311,17 @@ button {
 }
 
 .vocalbreath-atem {
-  background: linear-gradient(to right, transparent, goldenrod);
+  background-image: url("/public/assets/imgs/sand6.png");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
 }
 
 .vocalbreath-stimmcoaching {
-  background-color: #fff;
+  background-image: url("/public/assets/imgs/sand1.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
 }
 
 .vocalbreath-image {
@@ -400,7 +406,10 @@ button {
 
 .fascialmanuvers {
   padding: 100px 0 0;
-  background: linear-gradient(to right, transparent, goldenrod);
+  background-image: url("/public/assets/imgs/sand1.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
 }
 
 .fascialmanuvers h1 {
@@ -452,7 +461,10 @@ button {
 
 .tre-section {
   padding: 100px 0 0;
-  background: linear-gradient(to right, transparent, goldenrod);
+  background-image: url("/public/assets/imgs/sand6.png");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
 }
 
 .tre-section h1 {
@@ -517,7 +529,10 @@ button {
 
 .familyconst {
   padding: 100px 0 0;
-  background: linear-gradient(to right, transparent, goldenrod);
+  background-image: url("/public/assets/imgs/sand1.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
 }
 
 .familyconst h1 {
