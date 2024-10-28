@@ -7,7 +7,8 @@ function Concept() {
   const toggleShowMore = () => setShowMore(!showMore);
 
   return (
-    <section id="concept" className="container">
+    <section id="concept">
+      <div className="container">
       <h2 className="text-center">Mein Konzept</h2>
       <div className="row">
         <div className="col-md-8">
@@ -47,6 +48,7 @@ function Concept() {
         <div className="col-md-4">
             <img src="/assets/imgs/concept.jpg" alt="TRE" className="img-fluid concept-img" />
         </div>
+      </div>
       </div>
     </section>
   );

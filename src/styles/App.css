@@ -102,7 +102,7 @@ button {
 #about {
   padding-top: 100px;
   padding-bottom: 50px;
-  background: linear-gradient(to bottom, transparent, rgba(184, 134, 11, 0.6));
+  background-image: url("/public/assets/imgs/sand6.png");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
@@ -159,11 +159,17 @@ button {
 /* concept section */
 
 #concept {
-  margin-top: 100px;
+  background-image: url("/public/assets/imgs/sand1.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 #concept h2 {
   text-align: center; 
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 
@@ -230,9 +236,8 @@ button {
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
-  height: 135vh; 
-  padding: 10px; 
-  margin-top: 50px;
+  height: 143vh; 
+  padding: 50px 10px 0; 
 }
 
 #contact h2 {
@@ -272,7 +277,7 @@ button {
 
 @media (max-width: 768px) {
   #contact {
-    height: 225vh; 
+    height: 230vh; 
   }
 
   #contact h2 {
