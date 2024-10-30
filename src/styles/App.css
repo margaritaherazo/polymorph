@@ -105,7 +105,7 @@ button {
 #about {
   padding-top: 100px;
   padding-bottom: 50px;
-  background-image: url("/public/assets/imgs/sand6.png");
+  background-image: url("/public/assets/imgs/dust1.jpg");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
@@ -148,9 +148,9 @@ button {
 @media (max-width: 768px) {
 
   #about {
-    background-image: url("/public/assets/imgs/sand6.png");
+    background-image: url("/public/assets/imgs/dust2.jpg");
     background-size: cover; 
-    background-position: center; 
+    background-position: top left; 
     
   }
 
@@ -169,7 +169,7 @@ button {
 /* concept section */
 
 #concept {
-  background-image: url("/public/assets/imgs/sand5.png");
+  background-image: url("/public/assets/imgs/dust1.jpg");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
@@ -215,9 +215,10 @@ button {
 @media (max-width: 768px) {
 
   #concept {
-    background-image: url("/public/assets/imgs/sand7.png");
+    background-image: url("/public/assets/imgs/dust2.jpg");
     background-size: cover; 
-    background-position: center center; 
+    background-position: top left; 
+    
   }
 
   #concept .row {
@@ -325,14 +326,14 @@ button {
 }
 
 .vocalbreath-atem {
-  background-image: url("/public/assets/imgs/sand6.png");
+  background-image: url("/public/assets/imgs/dust1.jpg");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
 }
 
 .vocalbreath-stimmcoaching {
-  background-image: url("/public/assets/imgs/sand5.png");
+  background-image: url("/public/assets/imgs/dust1.jpg");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
@@ -380,6 +381,12 @@ button {
 
 @media (max-width: 768px) {
 
+  .vocalbreath-atem {
+    background-image: url("/public/assets/imgs/dust2.jpg");
+    background-size: cover; 
+    background-position: top left; 
+  }
+
   .vocalbreath-atem h1,
   .vocalbreath-stimmcoaching h1 {
     text-align: center; 
@@ -396,6 +403,12 @@ button {
   .vocalbreath-atem h3 {
     padding-left: 0; 
     text-align: center;
+  }
+
+  .vocalbreath-stimmcoaching {
+    background-image: url("/public/assets/imgs/dust2.jpg");
+    background-size: cover; 
+    background-position: top left; 
   }
 
 
@@ -420,7 +433,7 @@ button {
 
 .fascialmanuvers {
   padding: 100px 0 0;
-  background-image: url("/public/assets/imgs/sand5.png");
+  background-image: url("/public/assets/imgs/dust1.jpg");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
@@ -450,6 +463,13 @@ button {
 }
 
 @media (max-width: 768px) {
+
+.fascialmanuvers {
+  background-image: url("/public/assets/imgs/dust2.jpg");
+    background-size: cover; 
+    background-position: top left; 
+}
+
   .fascialmanuvers .row {
     flex-direction: column-reverse; 
     align-items: center;
@@ -475,7 +495,7 @@ button {
 
 .tre-section {
   padding: 100px 0 0;
-  background-image: url("/public/assets/imgs/sand6.png");
+  background-image: url("/public/assets/imgs/dust1.jpg");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
@@ -517,6 +537,11 @@ button {
 
 @media (max-width: 768px) {
 
+  .tre-section {
+    background-image: url("/public/assets/imgs/dust2.jpg");
+    background-size: cover; 
+    background-position: top left; 
+  }
 
   .tre-section h1 {
     margin-bottom: 50px;
@@ -543,7 +568,7 @@ button {
 
 .familyconst {
   padding: 100px 0 0;
-  background-image: url("/public/assets/imgs/sand5.png");
+  background-image: url("/public/assets/imgs/dust1.jpg");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
@@ -572,6 +597,13 @@ button {
 }
 
 @media (max-width: 768px) {
+
+  .familyconst {
+    background-image: url("/public/assets/imgs/dust2.jpg");
+    background-size: cover; 
+    background-position: top left; 
+  }
+
   .familyconst .row {
     flex-direction: column-reverse; 
     align-items: center;
