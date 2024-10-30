@@ -147,6 +147,13 @@ button {
 
 @media (max-width: 768px) {
 
+  #about {
+    background-image: url("/public/assets/imgs/sand6.png");
+    background-size: cover; 
+    background-position: center; 
+    
+  }
+
   #about .about-content {
     padding-left: 0;
     padding-top: 15px;
@@ -206,6 +213,13 @@ button {
 }
 
 @media (max-width: 768px) {
+
+  #concept {
+    background-image: url("/public/assets/imgs/sand7.png");
+    background-size: cover; 
+    background-position: center center; 
+  }
+
   #concept .row {
     flex-direction: column-reverse; 
     align-items: center;
@@ -318,7 +332,7 @@ button {
 }
 
 .vocalbreath-stimmcoaching {
-  background-image: url("/public/assets/imgs/sand1.jpg");
+  background-image: url("/public/assets/imgs/sand5.png");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
@@ -406,7 +420,7 @@ button {
 
 .fascialmanuvers {
   padding: 100px 0 0;
-  background-image: url("/public/assets/imgs/sand1.jpg");
+  background-image: url("/public/assets/imgs/sand5.png");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
@@ -529,7 +543,7 @@ button {
 
 .familyconst {
   padding: 100px 0 0;
-  background-image: url("/public/assets/imgs/sand1.jpg");
+  background-image: url("/public/assets/imgs/sand5.png");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
