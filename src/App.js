@@ -7,6 +7,7 @@ import Tre from './pages/Tre';
 import Vocalbreath from './pages/Vocalbreath';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
+import PrivacyPolicy from './components/PrivacyPolicy';
 
 function ScrollToTop() {
   const location = useLocation();
@@ -31,6 +32,7 @@ function App() {
           <Route path="/tre" element={<Tre />} />
           <Route path="/atem-stimm" element={<Vocalbreath />} />
           <Route path="/kontak" element={<Contact />} /> 
+          <Route path="/datenschutz" element={<PrivacyPolicy />} />
         </Routes>
       </div>
     </Router>

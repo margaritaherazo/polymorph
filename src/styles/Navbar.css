@@ -1,9 +1,3 @@
-@font-face {
-    font-family: 'Buick';
-    src: url('/public/assets/fonts/buick.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
 
 .top-area {
     position: relative;

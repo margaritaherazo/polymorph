@@ -32,6 +32,8 @@ function Familyconst() {
     </div>
     <div className="footer-text">
       Copyright © MI-HO 2024 | Made by <a href="https://www.margaritaherazoportfolio.com/" target="_blank" rel="noopener noreferrer">Margarita Herazo</a>
+      <br />
+      <a href="/datenschutz" className="footer-link">Datenschutz und Impressum</a>
     </div>
   </div>
 </footer>

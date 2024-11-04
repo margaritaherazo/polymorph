@@ -85,9 +85,7 @@ function Contact() {
               <p>Steinweg 6<br />07646 Stadtroda</p>
               <h6>Verfügbar in der</h6>
               <p>Privatpraxis für Ganzheitliche Medizin Dr. med. Sabine Lodes<br />Zöllnitzer Str. 22<br />07751 Zöllnitz</p>
-              <h4>Phone</h4>
-              <p>+49 176 444 768 26</p>
-
+            
               <h4>Email</h4>
               <p>miho.home@outlook.com</p>
 
@@ -112,6 +110,8 @@ function Contact() {
     </div>
     <div className="footer-text">
       Copyright © MI-HO 2024 | Made by <a href="https://www.margaritaherazoportfolio.com/" target="_blank" rel="noopener noreferrer">Margarita Herazo</a>
+      <br />
+      <a href="/datenschutz" className="footer-link">Datenschutz und Impressum</a>
     </div>
   </div>
 </footer>
