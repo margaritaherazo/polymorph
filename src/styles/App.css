@@ -96,12 +96,29 @@ button {
 
 
 #about {
+  position: relative;
   padding-top: 100px;
   padding-bottom: 50px;
   background-image: url("/public/assets/imgs/dust1.jpg");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
+}
+
+#about::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.4); 
+  z-index: 1; 
+}
+
+#about > * {
+  position: relative; 
+  z-index: 2; 
 }
 
 #about h2 {
@@ -141,12 +158,29 @@ button {
 @media (max-width: 768px) {
 
   #about {
+    position: relative;
     background-image: url("/public/assets/imgs/dust2.jpg");
     background-size: cover; 
     background-position: top left; 
     
   }
 
+  #about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.4); 
+    z-index: 1; 
+  }
+  
+  #about > * {
+    position: relative; 
+    z-index: 2; 
+  }
+  
   #about .about-content {
     padding-left: 0;
     padding-top: 15px;
@@ -162,12 +196,29 @@ button {
 /* concept section */
 
 #concept {
+  position: relative;
   background-image: url("/public/assets/imgs/dust1.jpg");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
   padding-top: 20px;
   padding-bottom: 50px;
+}
+
+#concept::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.4); 
+  z-index: 1; 
+}
+
+#concept > * {
+  position: relative; 
+  z-index: 2; 
 }
 
 #concept h2 {
@@ -208,10 +259,27 @@ button {
 @media (max-width: 768px) {
 
   #concept {
+    position: relative;
     background-image: url("/public/assets/imgs/dust2.jpg");
     background-size: cover; 
     background-position: top left; 
     
+  }
+
+  #concept::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.4); 
+    z-index: 1; 
+  }
+  
+  #concept > * {
+    position: relative; 
+    z-index: 2; 
   }
 
   #concept .row {
@@ -319,17 +387,51 @@ button {
 }
 
 .vocalbreath-atem {
+  position: relative;
   background-image: url("/public/assets/imgs/dust1.jpg");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
 }
 
+.vocalbreath-atem::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.4); 
+  z-index: 1; 
+}
+
+.vocalbreath-atem > * {
+  position: relative; 
+  z-index: 2; 
+}
+
 .vocalbreath-stimmcoaching {
+  position: relative;
   background-image: url("/public/assets/imgs/dust1.jpg");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
+}
+
+.vocalbreath-stimmcoaching::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.4); 
+  z-index: 1; 
+}
+
+.vocalbreath-stimmcoaching > * {
+  position: relative; 
+  z-index: 2; 
 }
 
 .vocalbreath-image {
@@ -375,9 +477,26 @@ button {
 @media (max-width: 768px) {
 
   .vocalbreath-atem {
+    position: relative;
     background-image: url("/public/assets/imgs/dust2.jpg");
     background-size: cover; 
     background-position: top left; 
+  }
+
+  .vocalbreath-atem::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.4); 
+    z-index: 1; 
+  }
+  
+  .vocalbreath-atem > * {
+    position: relative; 
+    z-index: 2; 
   }
 
   .vocalbreath-atem h1,
@@ -399,11 +518,27 @@ button {
   }
 
   .vocalbreath-stimmcoaching {
+    position: relative;
     background-image: url("/public/assets/imgs/dust2.jpg");
     background-size: cover; 
     background-position: top left; 
   }
 
+  .vocalbreath-stimmcoaching::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.4); 
+    z-index: 1; 
+  }
+  
+  .vocalbreath-stimmcoaching > * {
+    position: relative; 
+    z-index: 2; 
+  }
 
   .vocalbreath-stimmcoaching .row {
     flex-direction: column-reverse; 
@@ -425,11 +560,28 @@ button {
   
 
 .fascialmanuvers {
+  position: relative;
   padding: 100px 0 0;
   background-image: url("/public/assets/imgs/dust1.jpg");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
+}
+
+.fascialmanuvers::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.4); 
+  z-index: 1; 
+}
+
+.fascialmanuvers > * {
+  position: relative; 
+  z-index: 2; 
 }
 
 .fascialmanuvers h1 {
@@ -458,9 +610,26 @@ button {
 @media (max-width: 768px) {
 
 .fascialmanuvers {
+  position: relative;
   background-image: url("/public/assets/imgs/dust2.jpg");
     background-size: cover; 
     background-position: top left; 
+}
+
+.fascialmanuvers::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.4); 
+  z-index: 1; 
+}
+
+.fascialmanuvers > * {
+  position: relative; 
+  z-index: 2; 
 }
 
   .fascialmanuvers .row {
@@ -487,11 +656,28 @@ button {
 /* tre page */
 
 .tre-section {
+  position: relative;
   padding: 100px 0 0;
   background-image: url("/public/assets/imgs/dust1.jpg");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
+}
+
+.tre-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.4); 
+  z-index: 1; 
+}
+
+.tre-section > * {
+  position: relative; 
+  z-index: 2; 
 }
 
 .tre-section h1 {
@@ -531,9 +717,26 @@ button {
 @media (max-width: 768px) {
 
   .tre-section {
+    position: relative;
     background-image: url("/public/assets/imgs/dust2.jpg");
     background-size: cover; 
     background-position: top left; 
+  }
+
+  .tre-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.4); 
+    z-index: 1; 
+  }
+  
+  .tre-section > * {
+    position: relative; 
+    z-index: 2; 
   }
 
   .tre-section h1 {
@@ -560,11 +763,28 @@ button {
 /* familyconst page */
 
 .familyconst {
+  position: relative;
   padding: 100px 0 0;
   background-image: url("/public/assets/imgs/dust1.jpg");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
+}
+
+.familyconst::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.4); 
+  z-index: 1; 
+}
+
+.familyconst > * {
+  position: relative; 
+  z-index: 2; 
 }
 
 .familyconst h1 {
@@ -592,9 +812,26 @@ button {
 @media (max-width: 768px) {
 
   .familyconst {
+    position: relative;
     background-image: url("/public/assets/imgs/dust2.jpg");
     background-size: cover; 
     background-position: top left; 
+  }
+
+  .familyconst::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.4); 
+    z-index: 1; 
+  }
+  
+  .familyconst > * {
+    position: relative; 
+    z-index: 2; 
   }
 
   .familyconst .row {
@@ -693,9 +930,25 @@ footer .footer-brand {
   }
 }
 .privacy-policy {
+  position: relative;
 background-image: url("/public/assets/imgs/dust2.jpg");
 }
 
+.privacy-policy::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.4); 
+  z-index: 1; 
+}
+
+.privacy-policy > * {
+  position: relative; 
+  z-index: 2; 
+}
 .privacy-policy-container {
   padding: 100px 20px;
   max-width: 800px;
