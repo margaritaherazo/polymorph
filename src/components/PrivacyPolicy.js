@@ -2,6 +2,7 @@ import React from 'react';
 
 function PrivacyPolicy() {
   return (
+    <div className="privacy-policy">
     <div className="privacy-policy-container">
       <h1>Datenschutzerklärung</h1>
 
@@ -192,6 +193,7 @@ Steinweg 6<br />
 E-Mail: miho.home@outlook.com</p>
 
 <p>Quelle: <a href="https://www.e-recht24.de">eRecht24</a></p>
+</div>
 </div>
   );
 }

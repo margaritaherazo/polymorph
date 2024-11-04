@@ -247,7 +247,7 @@ button {
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
-  height: 143vh; 
+  height: 135vh; 
   padding: 50px 10px 0; 
 }
 
@@ -665,6 +665,10 @@ footer .footer-brand {
   color: black;
 }
 
+.footer-link {
+  color: black;
+}
+
 @media (max-width: 576px) {
   footer {
     font-size: 12px; 
@@ -687,4 +691,13 @@ footer .footer-brand {
   .footer-text a {
     font-size: 12px; 
   }
+}
+.privacy-policy {
+background-image: url("/public/assets/imgs/dust2.jpg");
+}
+
+.privacy-policy-container {
+  padding: 100px 20px;
+  max-width: 800px;
+  margin: 0 auto;
 }
