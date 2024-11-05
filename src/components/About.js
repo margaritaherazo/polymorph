@@ -62,7 +62,7 @@ function About() {
                   <ul>
                     <li>1986-1994: Volksschule der Musik in Žacléř und Trutnov</li>
                     <li>1994-1999: Studium am Staatlichen Konservatorium in Prag, Fächer: Gesang, Klavier und Tanz</li>
-                    <li>2023-jetzt: Weiterbildung in Körperarbeit: Vagusnerv, Breathwork, Stimme, neurogenes Zittern, faszialle Manöver und selbstgesteuertes Studium des Nervensystems basierend auf der Polyvagal-Theorie (Traumaheilung)</li>
+                    <li>2023-jetzt: Weiterbildung in Körperarbeit: Vagusnerv, Breathwork, Stimme, neurogenes Zittern, fasziale Manöver und selbstgesteuertes Studium des Nervensystems basierend auf der Polyvagal-Theorie (Traumaheilung)</li>
                     <li>2023-2024: Ausbildung zum TRE® Provider (Tension and Trauma Releasing Exercises) nach David Berceli</li>
                   </ul>
 

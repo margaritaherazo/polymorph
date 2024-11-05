@@ -41,7 +41,7 @@ function Navbar() {
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/fascialmanuvers" onClick={handleNavLinkClick}>
-                    Faszialle Manöver
+                    Fasziale Manöver
                   </Link>
                 </li>
                 <li className="nav-item">
