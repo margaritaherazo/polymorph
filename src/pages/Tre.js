@@ -12,6 +12,11 @@ function Tre() {
                 <source src="/assets/videos/trevideo.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
+              <div className="tre-image-wrapper">
+          <a href="https://www.tre-deutschland.de/" target="_blank" rel="noopener noreferrer">
+            <img src="/assets/imgs/trelogo.jpg" alt="trelink" className="img-fluid" />
+          </a>
+        </div>
           </div>
           <div className="col-md-8">
       <p>TRE® (Tension & Trauma Releasing Exercises) ist eine Körpertherapie, die darauf abzielt, durch gezielte Übungen Muskelverspannungen zu lösen und das Nervensystem zu beruhigen. Diese Methode wurde von Dr. David Berceli entwickelt und basiert auf der Annahme, dass traumatische Erlebnisse und chronischer Stress zu physischen Verspannungen führen, die im Körper gespeichert werden.</p>
