@@ -19,7 +19,7 @@ function Tre() {
         </div>
           </div>
           <div className="col-md-8">
-      <p>TRE® (Tension & Trauma Releasing Exercises) ist eine Körpertherapie, die darauf abzielt, durch gezielte Übungen Muskelverspannungen zu lösen und das Nervensystem zu beruhigen. Diese Methode wurde von Dr. David Berceli entwickelt und basiert auf der Annahme, dass traumatische Erlebnisse und chronischer Stress zu physischen Verspannungen führen, die im Körper gespeichert werden.</p>
+      <p>TRE® (Tension & Trauma Releasing Exercises) ist eine Serie von einfachen Übungen, die darauf abzielt, Muskelverspannungen zu lösen und das Nervensystem zu beruhigen. Diese Methode wurde von Dr. David Berceli entwickelt und basiert auf der Annahme, dass traumatische Erlebnisse und chronischer Stress zu physischen Verspannungen führen, die im Körper gespeichert werden.      </p>
 
   <h3>Wirkung von TRE® bei Trauma</h3>
 
