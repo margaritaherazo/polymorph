@@ -358,6 +358,7 @@ button {
   color: gold;
 }
 
+
 @media (max-width: 768px) {
   #contact {
     min-height: 220vh; 
