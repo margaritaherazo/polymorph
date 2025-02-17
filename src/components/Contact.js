@@ -1,80 +1,90 @@
-
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function Contact() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
-
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Form data submitted:', formData);
-    setSubmitted(true);
-  };
+  const [showMore, setShowMore] = useState(false);
 
   return (
     <section id="contact">
-      <h2 className="text-center mb-5">Kontakt</h2>
+      <h2 className="text-center mb-5">Kontakt & Nächste Workshops</h2>
       <div className="container">
         <div className="row">
-          {/* Left Column - Contact Form */}
+          {/* Left Column - workshop */}
           <div className="col-md-6">
-            {submitted ? (
-              <p>Thank you for your message! We will get back to you soon.</p>
-            ) : (
-              <form onSubmit={handleSubmit} data-netlify="true" name="contact">
-                <input type="hidden" name="form-name" value="contact" />
-                <div className="form-row">
-                  <div className="form-group col-md-6">
-                    <label htmlFor="name">Name:</label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      className="form-control"
-                      value={formData.name}
-                      onChange={handleChange}
-                      required
-                    />
-                  </div>
-                  <div className="form-group col-md-6">
-                    <label htmlFor="email">Email:</label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      className="form-control"
-                      value={formData.email}
-                      onChange={handleChange}
-                      required
-                    />
-                  </div>
-                </div>
+            <h4 className="text-center">Körpergedächtnis Workshop</h4>
+            <p className="text-center">
+            <strong>Samstags jeweils von</strong> <br /> 10-17 Uhr
+            </p>
+            <p className="text-center">
+              22.02.2025<br /> 08. | 29. 03<br /> 12. | 26. 04<br />17. | 31. 05<br /> 14. | 28. 06<br /> 12. | 26. 07  <br /> 
+              16. | 30. 08 <br />   13. | 27. 09 <br />  11. | 25. 10
+            </p>
+            <p className="text-center">
+            <strong>Ort:</strong> YOGABEWEGT, Ludwig-Weimar.Gasse 1 <br />  07743 Jena    </p>
 
-                <div className="form-group">
-                  <label htmlFor="message">Message:</label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    className="form-control"
-                    rows="4"
-                    value={formData.message}
-                    onChange={handleChange}
-                    required
-                  ></textarea>
-                </div>
+               {/* Button to toggle more info */}
+            <div className="text-center">
+              <button
+                className="btn btn-primary mt-3"
+                onClick={() => setShowMore(!showMore)}
+              >
+                {showMore ? "Weniger anzeigen" : "Mehr Infos"}
+              </button>
+            </div>
 
-                <button type="submit" className="btn btn-primary mt-3">Send</button>
-              </form>
+            {/* Additional information */}
+            {showMore && (
+              <div className="text-center mt-3">
+                <p>
+      Vielleicht spürst du sie schon länger – diese innere Spannung, die dich begleitet.
+      Sie zeigt sich im Körper, im Atem, in den Gedanken. Du weißt, dass etwas anders werden muss, aber wie?
+    </p>
+    <p>
+      Ich lade dich ein, mit mir einen Weg zu gehen, der die neuesten Erkenntnisse zum autonomen Nervensystem
+      und dem faszialen Netzwerk berücksichtigt. Einen Weg, der auf einem ehrlichen Kontakt mit dir selbst
+      und deinem Körper basiert.
+    </p>
+    <p>
+      Du wirst der ureigenen Intelligenz deines Körpers begegnen und deine Verbindung zum morphischen Feld wahrnehmen.
+    </p>
+    <p>
+      Mit Atem- und Stimmarbeit, faszialen Techniken, der TRE®-Methode und Gestaltaufstellungen schaffen wir gemeinsam
+      einen Raum, in dem du:
+    </p>
+    <ul className="list-unstyled">
+      <li>🔹 deinem Körper erlaubst, loszulassen – physisch wie emotional,</li>
+      <li>🔹 deinen Atem als Anker nutzen kannst,</li>
+      <li>🔹 den Körper als deinen größten Verbündeten würdigst und</li>
+      <li>🔹 Vertrauen in deine eigene Kraft entwickelst.</li>
+    </ul>
+    <p>
+      <strong>Warum das funktioniert?</strong><br />
+      Dein Körper ist ein lebendiges, vernetztes System. Wenn du ihm den Raum gibst, sich selbst zu regulieren,
+      kann sich vieles von allein in Balance bringen. Es braucht keinen Druck, nur ein wenig Mut, hinzuspüren
+      und dir Zeit zu nehmen.
+    </p>
+    <p>
+      Ich verspreche dir keine Heilung und keine schnellen Wunder.<br />
+      Ich bringe dich mit Techniken in Kontakt, die dir fortan zur Verfügung stehen werden,
+      die du jederzeit auch allein durchführen kannst. Selbstverantwortlich angewendet,
+      können sie einen großen Beitrag auf deinem Heilungsweg leisten.
+    </p>
+    <p>
+      Ich eröffne einen Raum, in dem du erforschen kannst, was dir nicht mehr dient, was dich stärkt
+      und was dir wirklich gut tut.
+    </p>
+    <p>
+      <strong>Der erste Schritt?</strong><br />
+      Den gehst du – und ich begleite dich ein Stück auf deinem Weg.
+    </p>
+    <p><strong>Dieser Workshop wird intensiv.</strong></p>
+    <p>Alle Methoden sind als „Hands-off“ oder „Hands-on“ möglich.</p>
+    <p><strong>Maximale Teilnehmerzahl:</strong> 11 Personen</p>
+    <p><strong>Kosten:</strong> 145€ pro Person, pro Workshop</p>
+
+                <p>
+                <strong> Anmeldung unter:</strong> <a className="email-link" href="mailto:michaela.holubova@hotmail.de">michaela.holubova@hotmail.de</a>
+                </p>
+              </div>
             )}
           </div>
 

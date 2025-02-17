@@ -315,7 +315,7 @@ button {
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
-  height: 135vh; 
+  min-height: 140vh; 
   padding: 50px 10px 0; 
 }
 
@@ -352,6 +352,10 @@ button {
 
 #contact .social-icon:hover {
   color: goldenrod;
+}
+
+.email-link {
+  color: gold;
 }
 
 @media (max-width: 768px) {
