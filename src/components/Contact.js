@@ -19,7 +19,7 @@ function Contact() {
               16. | 30. 08 <br />   13. | 27. 09 <br />  11. | 25. 10
             </p>
             <p className="text-center">
-            <strong>Ort:</strong> YOGABEWEGT, Ludwig-Weimar.Gasse 1 <br />  07743 Jena    </p>
+            <strong>Ort:</strong> YOGABEWEGT, Ludwig-Weimar-Gasse 1 <br />  07743 Jena    </p>
 
                {/* Button to toggle more info */}
             <div className="text-center">
