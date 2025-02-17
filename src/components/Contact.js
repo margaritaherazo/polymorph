@@ -87,7 +87,7 @@ function Contact() {
               <p>Privatpraxis für Ganzheitliche Medizin Dr. med. Sabine Lodes<br />Zöllnitzer Str. 22<br />07751 Zöllnitz</p>
             
               <h4>Email</h4>
-              <p>miho.home@outlook.com</p>
+              <p>michaela.holubova@hotmail.de</p>
 
               <h4>Follow</h4>
               <div className="social-icons">
