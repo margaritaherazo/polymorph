@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
 function Contact() {
-  const [showMore, setShowMore] = useState(false);
 
   return (
     <section id="contact">
