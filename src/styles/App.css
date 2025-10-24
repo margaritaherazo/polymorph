@@ -341,7 +341,8 @@ button {
 
 #contact .social-icons {
   display: flex;
-  gap: 10px; 
+  justify-content: center;
+  gap: 15px; 
   margin-top: 20px;
 }
 
